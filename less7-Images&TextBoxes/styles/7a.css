@@ -1,0 +1,7 @@
+.profilepic {
+  border-radius: 20px;
+  width: 200px;
+  height: 175px;
+  object-fit: cover;
+  object-position: top;
+}
