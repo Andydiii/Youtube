@@ -8,22 +8,18 @@ p {
   display: block;
 }
 
-.video-preview {
-  width: 300px;
-  display: inline-block;  
-  vertical-align: top;
-  margin-right: 15px;
-}
-
 .videopic_class {
   margin-bottom: 5px;
-  width: 300px;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile1 {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+  /* background-color: lightcoral; */
 }
 
 .profilepic1 {
@@ -32,8 +28,7 @@ p {
 }
 
 .infos {
-  display: inline-block;
-  width: 200px;
+  /* background-color: lightcoral; */
 }
 
 .p11 {
@@ -50,9 +45,7 @@ p {
 }
 
 .profilepic2_div {
-  display: inline-block;
-  vertical-align: top;
-  width: 50px;
+  /* background-color: lightblue; */
 }
 
 .profilepic2 {
@@ -61,7 +54,7 @@ p {
 }
 
 .info2 {
-  display: inline-block;
+  /* background-color: lightblue; */
 }
 
 .title {
@@ -74,4 +67,11 @@ p {
   font-size: 12px;
   margin-bottom: 5px;
   color: grey;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
 }
