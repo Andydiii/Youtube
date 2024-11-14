@@ -20,12 +20,15 @@
     object-position: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    height: 300px;
+    column-gap: 30px;
+}
+
 .box {
-    width: 170px;
-    height: 299px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
-    display: inline-block;
-    margin-right: 8px;
 }
 
 p {
