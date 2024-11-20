@@ -1,0 +1,70 @@
+
+
+
+.videopic_class {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile1 {
+  /* background-color: lightcoral; */
+}
+
+.profilepic1 {
+  width: 80%;
+  border-radius: 100px;
+}
+
+.infos {
+  /* background-color: lightcoral; */
+}
+
+.p11 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.p12, .p13{
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.profilepic2_div {
+  /* background-color: lightblue; */
+}
+
+.profilepic2 {
+  border-radius: 100px; 
+  width: 80%;
+}
+
+.info2 {
+  /* background-color: lightblue; */
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.author,.description {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: grey;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
+}
