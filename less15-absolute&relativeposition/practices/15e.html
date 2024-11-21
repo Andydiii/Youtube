@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            height: 400px;
+            background-color: lightgrey;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .discount {
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            background-color: black;
+            color: white;
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .bottom-container {
+            background-color: rgb(255, 255, 255);
+            opacity: 0.8;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: rgb(255, 255, 255);
+            border-width: 1px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+            padding-left: 7px;
+            padding-right: 7px;
+
+            z-index: 100;
+        }
+    </style>
+</head>
+<body style="height: 3000px;">
+    <div class="container">
+        <img src="../pictures/clothe2.png" alt="">
+        <div class="discount">
+            20% OFF
+        </div>
+
+        <div class="bottom-container">
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
