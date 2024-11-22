@@ -1,0 +1,127 @@
+.notifications-count {
+  position: absolute;
+  top:-4px;
+  right: -4px;
+  background-color: rgb(207, 2, 2);
+  color: aliceblue;
+  font-family: roboto;
+  font-size: 11px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 50px;
+}
+
+
+.notifications {
+  position: relative;
+}
+
+.videopic_class {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profilepic1 {
+  width: 80%;
+  border-radius: 100px;
+}
+
+
+.p11 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.p12, .p13{
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.profilepic2 {
+  border-radius: 100px; 
+  width: 80%;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.author,.description {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: rgb(230, 230, 230);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.video1 {
+  position: relative;
+}
+.video-time {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 2px;
+}
+
+.voice-button, .search-button, .r1, .r2, .notifications {
+  position: relative;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip1 {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  bottom: -25px;
+  font-size: 12px;
+
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip1, 
+.voice-button:hover .tooltip1, 
+.r1:hover .tooltip1, 
+.r2:hover .tooltip1, 
+.notifications:hover .tooltip1 {
+  opacity: 1;
+}
