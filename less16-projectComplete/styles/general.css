@@ -11,3 +11,12 @@ body {
     padding-right: 20px;
     background-color: rgb(247, 247, 247);
 }
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+.text-link {
+    color: inherit
+}
