@@ -4,7 +4,6 @@
   right: -4px;
   background-color: rgb(207, 2, 2);
   color: aliceblue;
-  font-family: roboto;
   font-size: 11px;
   padding-right: 6px;
   padding-left: 6px;
@@ -35,7 +34,7 @@
 
 
 .p11 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 17px;
   margin-bottom: 10px;
@@ -64,11 +63,32 @@
   color: rgb(230, 230, 230);
 }
 
+
+
+
 .grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 30px;
+}
+
+@media (max-width: 750px) {
+  .grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 751px) and (min-width: 999px) {
+  .grid2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .video1 {
@@ -80,13 +100,9 @@
   right: 10px;
   background-color: black;
   color: white;
-  font-family: Roboto;
   font-size: 13px;
   font-weight: 500;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 3px 3px 3px 3px;
   border-radius: 2px;
 }
 
@@ -99,29 +115,6 @@
   align-items: center;
 }
 
-.tooltip1 {
-  font-family: Roboto, Arial;
-  position: absolute;
-  background-color: gray;
-  color: white;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  bottom: -25px;
-  font-size: 12px;
 
-  opacity: 0;
-  transition: opacity 0.15s;
-  pointer-events: none;
 
-  white-space: nowrap;
-}
 
-.search-button:hover .tooltip1, 
-.voice-button:hover .tooltip1, 
-.r1:hover .tooltip1, 
-.r2:hover .tooltip1, 
-.notifications:hover .tooltip1 {
-  opacity: 1;
-}

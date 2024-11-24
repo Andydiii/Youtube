@@ -66,7 +66,6 @@
 .search-box::placeholder {
     padding-left: 10px;
     font-size: 16px;
-    font-family: roboto, arial;
 }
 
 .search-button {
@@ -106,3 +105,30 @@
     height: 35px;
     border-radius: 17.5px;
 }
+
+.tooltip1 {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    bottom: -25px;
+    font-size: 12px;
+  
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+  
+    white-space: nowrap;
+  }
+
+.search-button:hover .tooltip1, 
+.voice-button:hover .tooltip1, 
+.r1:hover .tooltip1, 
+.r2:hover .tooltip1, 
+.notifications:hover .tooltip1 {
+  opacity: 1;
+}
+
